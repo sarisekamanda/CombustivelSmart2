@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CombustivelSmart2</string>
+    <string name="app_name">CombustívelSmart</string>
     <string name="gasolina"> Insira o valor da Gasolina</string>
     <string name="alcool"> Insira o valor do Alcool</string>
     <string name="calcular">Calcular</string>

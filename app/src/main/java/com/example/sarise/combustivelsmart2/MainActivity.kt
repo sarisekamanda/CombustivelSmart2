@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         val resposta = txtGasolina.text.toString().toDouble() * 0.7
 
         if(txtAlcool.text.toString().toDouble() <= resposta) {
-            txtResposta.text = ("Abasteça com Gasolina :) O preço máximo do Álcool é: "); resposta.toString()
+            txtResposta.text = ("Abasteça com Álcool :) O preço máximo do Álcool é: " + resposta.toString())
         }
         else {
-            txtResposta.text = ("Abasteça com Gasolina :)") ; txtAlcool.text.toString()
+            txtResposta.text = ("Abasteça com Gasolina :) O preço máximo do Álcool é: " + resposta.toString())
         }
     }
 }
